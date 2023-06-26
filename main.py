@@ -8,7 +8,7 @@ while True:                                                     # The while loop
     player = None                                              # The player is initialized.
 
     while player not in characters:                     # When the player does not choose any of the characters given
-        player = print(" Select either rock, paper, or scissors?:>: ").lower()  # Code for player input.
+        player = input(" Select either rock, paper, or scissors?:>: ").lower()  # Code for player input.
     if player == me:
         print("The computer chooses: ",me)
         print("You choose: ",player)
